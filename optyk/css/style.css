@@ -1,0 +1,170 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background: url('../img/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+    background-size: cover;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    overflow: hidden;
+}
+
+a {
+	color: white;	
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+}
+
+.logotyp {
+	background: rgba(0, 10, 97, 0.2);
+	color: white;
+	width: 60%;	
+	margin: auto;
+	margin-top: 2%;
+	border-style: solid;
+	border-color: white; 
+	text-align: center;
+}
+
+.logotyp > p {
+	font-size: 1.5em;
+}
+
+.menu-button {
+	margin-left: 10%;
+	position: relative;
+	float : left;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.menu-list {
+	position: relative;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	margin-top: 1em;
+}
+
+.menu-list > ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: inline-block;
+}
+
+.menu-list > ul > li > div {
+	font-size: 2em;
+	padding: 0.5em 2em;
+	background: rgba(0, 10, 97, 0.2);
+	border: 1px solid transparent;
+} 
+
+.menu-list > ul > li > div:hover {
+	cursor: pointer;
+} 
+
+.sekcja {
+	position: relative;
+	background: rgba(0, 10, 97, 0.3);
+	text-align: center;
+	float: left;
+	display: none;
+	margin-top: 2em;
+	width: 50%;
+	height: 600px;
+	border: 1px solid transparent;
+	clear: both;
+}
+
+.sekcja h2 {
+	margin-top: 10px;
+	font-weight: normal;
+}
+.sekcja p {
+	margin: 0 100px;
+}
+#googleMap {
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	text-shadow: none;
+}
+
+.active {
+	display: block;
+}
+
+/*---Media queries---*/
+@media (max-width: 1505px) {
+	.menu-list > ul > li > div {
+		font-size: 1.75em;	
+	} 
+}
+@media (max-width: 1400px) {
+	.menu-list > ul > li > div {
+		font-size: 1.75em;	
+	} 
+	.menu-list
+}
+
+@media (max-width: 1230px) {
+	.menu-list > ul > li > div {
+		font-size: 1.5em;
+	} 
+}
+@media (max-width: 1050px) {
+	.menu-list > ul > li {
+		display: block;
+		margin-top: 1em;
+	}
+	.menu-list {
+		width: 60%;
+	}
+	.menu-list > ul {
+		width: 100%;
+	}
+	.sekcja {
+		width: 80%;
+	}
+}
+@media (max-width: 950px) {
+	.menu-list > ul > li > div {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 800px) {
+	.menu-button {
+		margin-left: 5%;
+	}
+}
+@media (max-width: 770px) {
+	.menu-list > ul > li {
+		display: block;
+		margin-top: 10px;
+	}
+	.sekcja {
+		width: 100%;
+	}
+}
+
+/* */

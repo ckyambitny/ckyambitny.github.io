@@ -1,0 +1,29 @@
+body {
+    background-image: url('../img/bg.png');
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+a, a:hover, a:visited {
+    color: navy;
+    text-decoration: none;
+}
+
+.links {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.links > div {
+    display: inline-block;
+    margin-right: 10px;
+}
+.links > div i{
+    margin-right: 10px;
+}
+li {
+    list-style: none;
+}
